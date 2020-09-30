@@ -8,13 +8,13 @@ def read(fname):
 
 
 setup(
-    name="junit-xml",
+    name="junit-xml-2",
     author="Brian Beyer",
     author_email="brian@kyr.us",
-    url="https://github.com/kyrus/python-junit-xml",
+    url="https://github.com/returntocorp/python-junit-xml",
     license="MIT",
     packages=find_packages(exclude=["tests"]),
-    description="Creates JUnit XML test result documents that can be read by tools such as Jenkins",
+    description="Fork of https://github.com/kyrus/python-junit-xml that has tarball published to pypi",
     long_description=read("README.rst"),
     version="1.9",
     classifiers=[
